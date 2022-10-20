@@ -9,3 +9,7 @@ jobs:
     steps:
       - name: ENV
         run: env
+
+    steps:
+      - name: VAR
+        run: echo ${{ github.repository }}
